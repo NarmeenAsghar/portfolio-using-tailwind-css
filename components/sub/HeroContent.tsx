@@ -42,15 +42,17 @@ const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           As a passionate aspiring Full-Stack Developer, I am eager to expand my
-          skills and embark on a journey in web development.
+          skills and embark on a journey in web development. I have hands-on
+          experience working with Next.js, TypeScript, HTML, and CSS, and I am
+          excited to continue building my knowledge in these technologies. I’m
+          driven to create efficient, dynamic web applications and grow as a
+          developer in both front-end and back-end development
         </motion.p>
-
 
         <motion.div
           variants={slideInFromLeft(1)}
           className="py-2 text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-
           <Button className="flex items-center gap-2 mt-6 button-primary">
             <a
               href="/My-Resume.pdf"
@@ -66,7 +68,7 @@ const HeroContent = () => {
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center "
+        className="w-full h-full sm:flex justify-center items-center hidden"
       >
         <Image
           src="/mainIconsdark.svg"
