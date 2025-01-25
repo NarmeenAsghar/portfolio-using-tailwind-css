@@ -16,7 +16,7 @@ const Footer = () => {
                         <RxGithubLogo />
                         <span className="text-[15px] ml-[6px]">
                         <a
-                    href="https://github.com/Career01crafter"
+                    href="https://github.com/NarmeenAsghar"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
